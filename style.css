@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+:root{
+    --main-color: rgb(7, 7, 7);
+    --font-family: "Source Sans Pro", sans-serif;
+}
+*{
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+    line-height: 20px;
+    font-family: var(--font-family);
+}
+li{
+    list-style: none;
+}
+/*.img{
+    width: 100%;
+}*/
+body{
+    background: rgb(248, 248, 248);
+    color: var(--main-color);
+}
+section{
+    display: flex;
+}
+.Main-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    
+}
+.Main-left h2{
+    text-align: left;
+    font-weight: lighter;
+    font-size: 3rem;
+    padding: 20px 20px;
+    
+}
+.Main-left p{
+    line-height: 25px;
+    padding: 20px;
+}
+.Main-left button{
+    background: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px auto;
+}
+ .img{
+     background: url(./images/banner.jpg) right/cover;
+     width: 50%;
+     height: 600px;
+}
+
+
+.div .img-foret{
+    width: 100%;
+}
+.img-foret{
+    background: url(./images/banner-1.jpg) cover;
+    
+}
+.Main-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle-text{
+    margin: 200px auto;
+    padding: 0 60px;
+    line-height: 30px;
+}
+.middle-text h2{
+    margin: 20px auto;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+.middle-text p{
+    line-height: 25px;
+}
+.middle-text button{
+    margin: 20px auto;
+}
+.middle-text button{
+    background: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid;
+    font-size: 1.5rem;
+    text-align: center;}
+
+
+.Main-bas{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 0 auto;
+    line-height: 30px;
+}
+.Main-bas h2{
+    font-weight: lighter;
+    font-size: 3rem;
+    padding: 20px 0;
+    
+}
+.bas-text{
+    margin: 200px auto;
+    padding: 20px 60px;
+    line-height: 30px;
+}
+
+.Main-bas p{
+    line-height: 25px;
+    padding: 20px;
+}
+.Main-bas button{
+    background: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid;
+    font-size: 1.5rem;
+    text-align: center;}
+
+.img-ville{
+    background: url(./images/banner-2.jpg) bottom/cover;
+    width: 100%;
+}
+.formulaire{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr  ;
+    grid-template-areas: 
+    "" "Titre" ""
+    "Name" "" "Email"
+    "box1" "" "box2"
+    "" "message" ""
+    "box3" "box3" "box3"
+    ;
+}
+ .formulaire div:nth-child(1) {
+    grid-area: Titre;
+  }
+  .formulaire div:nth-child(2) {
+    grid-area: Name;
+  }
+  .formulaire div:nth-child(3) {
+    grid-area: Email;
+  }
+  .formulaire div:nth-child(4) {
+    grid-area: box1;
+  }
+  .formulaire div:nth-child(5) {
+    grid-area: box2;
+  }
+  .formulaire div:nth-child(6) {
+    grid-area: Message;
+  }
+  .formulaire div:nth-child(7) {
+    grid-area: box3;
+  }
+ 
