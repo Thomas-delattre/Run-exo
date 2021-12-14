@@ -179,12 +179,8 @@
   .réseaux div:hover{
     background: lightgray;
     transition: 0.5s ease;
-    font-size: 1rem;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+    font-size: 1.5rem;
   }
-   
   /***************************** RESPONSIVE ***********************/
 
   @media (max-width:900px) {
@@ -223,14 +219,14 @@
 
     }
     .grid span{
-      font-size: 0.6rem;
+      font-size: 0.7rem;
     }
-    /*.réseaux div{
+    .réseaux div{
       width: 25px;
       height: 25px;
-    }*/
+    }
     .réseaux i{
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
   }
   @media (max-width:600px) {
@@ -246,10 +242,10 @@
       padding: 0;
       margin: 10% auto;
       margin-bottom: 0;
-      height: 50%;
+      height: 30%;
     }
     .img1{
-      height: 50%;
+      height: 80%;
       width: 50%;
       
     }
